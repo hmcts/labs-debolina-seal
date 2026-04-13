@@ -1,14 +1,14 @@
 version: '2.1'
 
 services:
-  spring-boot-template:
+  debolina-seal:
     build:
       context: .
       args:
         - http_proxy
         - https_proxy
         - no_proxy
-    image: hmctssbox.azurecr.io/spring-boot/template
+    image: hmctspublic.azurecr.io/labs/debolina-seal
     environment:
       # these environment variables are used by java-logging library
       - ROOT_APPENDER
@@ -22,5 +22,6 @@ services:
       - LOGBACK_REQUIRE_THREAD
       - LOGBACK_REQUIRE_ALERT_LEVEL=false
       - LOGBACK_REQUIRE_ERROR_CODE=false
+      - FAVOURITE_FRUIT="plum"
     ports:
       - $SERVER_PORT:$SERVER_PORT
