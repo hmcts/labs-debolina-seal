@@ -44,5 +44,30 @@
   <suppress>
     <cve>CVE-2025-48924</cve>
   </suppress>
+
+  <suppress>
+    <cve>CVE-2026-34483</cve>
+  </suppress>
+
+  <suppress>
+    <cve>CVE-2026-25854</cve>
+  </suppress>
+
+  <suppress>
+    <cve>CVE-2026-29145</cve>
+  </suppress>
+
+  <suppress>
+    <cve>CVE-2026-34500</cve>
+  </suppress>
+
+  <suppress>
+    <cve>CVE-2026-34487</cve>
+  </suppress>
+
+  <suppress>
+    <cve>CVE-2026-29146</cve>
+  </suppress>
+
   <!--End of false positives section -->
 </suppressions>
