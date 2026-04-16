@@ -73,5 +73,9 @@
     <cve>CVE-2026-24880</cve>
   </suppress>
 
+  <suppress>
+    <cve>CVE-2026-22731</cve>
+  </suppress>
+
   <!--End of false positives section -->
 </suppressions>
